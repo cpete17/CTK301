@@ -1,0 +1,27 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color:lime;
+}
+a:hover{
+    color: yellow;
+}
+.header{
+    color:red;
+    background-color: aqua;
+}
+.Classes{
+    color:rgb(0, 229, 255);
+    background-color: darkred;
+}
+.texts{
+    color:blue;
+}
+.spanstyle{
+    color:red;
+}
+#DIV{
+    color:aquamarine;
+    background-color:black;
+}
