@@ -1,0 +1,47 @@
+.Poison{
+background-color: lightblue;
+}
+#WhiteSky{
+    color:white;
+}
+a {
+    color: green;
+    text-decoration:none; 
+}
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+#Fires{
+    color:blue;
+}
+#Doctor{
+    color:gold;
+}
+
+#Inferno{
+    color:Black;
+    background-color:yellow;
+}
+#taxi{
+    color:red;
+}
+
+#Father{
+    color:yellow;
+    background-color:green;
+}
+#art{
+    background-color:mediumspringgreen;
+}
+
+.Daughter{
+    background-color: yellow;
+}
+#h5{
+    color:red;
+}
+#Im{
+color: blue;
+}
