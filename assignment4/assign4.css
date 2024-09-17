@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    background-image:url(ISU.png);
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+.customtext{
+    font-family:Helvetica, Arial ;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color:lime;
+}
+a:hover{
+    color: yellow;
+}
+.header{
+    color:orange;
+    text-align: center;
+    font-style: italic;
+}
+.Classes{
+    color:rgb(0, 229, 255);
+    background-color: darkred;
+}
+.texts{
+    color:blue;
+}
+.spanstyle{
+    color:red;
+}
+.just{
+    color:aqua;
+    text-align: justify;
+    background-color: black;
+}
+#DIV{
+    color:aquamarine;
+    background-color:black;
+}
+.img{
+    border: 10px solid black;
+    padding: 10px;
+    background-color: yellow;
+}
