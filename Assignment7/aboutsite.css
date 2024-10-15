@@ -1,0 +1,95 @@
+#wrapper{
+    margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid blue;
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr auto;
+}
+body{
+    font-family: Helvetica, Arial, Georgia;
+}
+h1{
+font-style:italic;
+background-image:linear-gradient(to bottom, blue, lightblue);
+grid-column: span 12;
+margin:0;
+padding: 1em;
+}
+h1 a{
+    color:lightblue;
+    text-decoration:none;
+}
+h1 a:hover{
+    color: white;
+}
+nav{
+    grid-column: span 12;
+    list-style: none;
+    background-color:blue;
+    text-align: center;
+}
+nav li{
+    list-style:none; 
+    Margin: 0px;
+    Width: 225px;
+    display:inline-block;
+}
+nav a{
+    display:block;
+  border: 1px solid #000000;
+  padding:1em;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  color:lightblue;
+  font-weight:bold;
+  text-decoration: none;
+}
+nav a:hover{
+   background-image: none;
+   background-color: red;
+    color:white;
+}
+#anotherh2{
+    grid-column:span 8;
+    color:blue;
+    border-bottom: blue solid 3px;
+    font-weight: normal;
+    margin:0px;
+    padding:10px;
+}
+main{
+    grid-column: span 8;
+}
+.BEAR{
+    float:right;
+    border:blue solid 3px;
+    margin:7px;
+}
+.lorem{
+    padding:10px;
+    margin:3px;
+}
+.lorem a{
+    color:red;
+    text-decoration: none;
+}
+.lorem a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+#leftbox{
+    grid-column: span 4;
+    grid-row:span 3 ;
+    padding:1em;
+    margin-top:0;
+    text-align: justify;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+footer{
+    grid-column: span 12;
+    background-color: red;
+    border-top: solid blue 3px;
+}
