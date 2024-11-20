@@ -21,6 +21,25 @@ body{
     color:white;
     text-shadow:2px 2px 2px black ;
   }
+  #myCarousel {
+    margin-bottom: 24px;
+    width:65%;
+    --f-button-color: rgb(255,0,0);
+    --f-button-height:20px;
+    --f-button-height:20px;
+    padding:12px;
+    float:left;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+    image-rendering: crisp-edges;
+  }
+  #myCarousel img{
+    width:100%;
+  }
   nav{
     grid-column:span 3;
   }
@@ -51,10 +70,6 @@ body{
  main{
   grid-column:span 6;
   font-size: 18px;
- }
- main img{
-  width:50%;
-  float:left;
  }
  #contactinfo{
   grid-column:span 3;
