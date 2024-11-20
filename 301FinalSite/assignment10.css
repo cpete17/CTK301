@@ -1,0 +1,102 @@
+body{
+  background-color:#999999;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+}
+#wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  h1{
+      padding: 12px;
+      border-radius: 30px;         
+    grid-column:span 12;
+    background-color:red;
+    color:white;
+    text-shadow:2px 2px 2px black ;
+  }
+  #myCarousel {
+    margin-bottom: 24px;
+    width:65%;
+    --f-button-color: rgb(255,0,0);
+    --f-button-height:20px;
+    --f-button-height:20px;
+    padding:12px;
+    float:left;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+    image-rendering: crisp-edges;
+  }
+  #myCarousel img{
+    width:100%;
+  }
+  nav{
+    grid-column:span 3;
+  }
+  nav ul{
+    padding:0;
+    margin:0;
+  }
+  nav li{
+    background-color:red;
+    color:white;
+    margin-bottom:24px;
+    border-radius:50px;
+  }
+  nav li a{
+    font-weight:bold;
+    padding:24px;
+    text-decoration: none;
+    color:white;
+    font-size:24px;
+    display:block;
+    border-radius:50px;
+    transition:all 0.75s;
+  }
+  nav li a:hover{
+    background-color: maroon;
+    border-radius:50px;
+  }
+ main{
+  grid-column:span 6;
+  font-size: 18px;
+ }
+ #contactinfo{
+  grid-column:span 3;
+  padding:5px;
+  background-color: cyan;
+  color:black;
+  font-size:24px;
+  font-weight:bold;
+  border-radius: 50px;
+  text-align: center;
+ }
+ footer{
+  grid-column:span 12;
+  background-color:red;
+  color:white;
+  padding:24px;
+  font-size:24px;
+  font-weight:bold;
+  border-radius: 30px;
+  text-shadow:2px 2px 2px black ;
+
+}
+footer a{
+  color:white;
+  transition: all 0.75s;
+}
+footer a:hover{
+  color:cyan;
+  font-size: 36px;
+}
